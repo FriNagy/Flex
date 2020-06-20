@@ -1,22 +1,34 @@
 # Installieren von DB2 Server unter Windows 
 
 
-### Download IBM DB2 Server 11.5 Community Edition
+Db2 Community Edition is the free edition of the Db2 for Linux / Windows database. The install image for Db2 is the same for all licenses available by IBM. You are allowed to do anything you like with Db2 Community Edition (e.g. run it in production) 
 
-Db2 Community Edition is the free edition of the Db2 for Linux / Windows database. Db2 Community Edition does allow for a large size (100GB) database and can use up to 16GB of memory. There are NO other restrictions. The install image for Db2 is the same for all licenses available by IBM. You are allowed to do anything you like with Db2 Community Edition (e.g. run it in production) 
-
-See here: (https://www.ibmbigdatahub.com/blog/simplifying-db2-downloads-help-clients-and-developers-get-started?cm_mc_uid=81099688463915636374118&cm_mc_sid_50200000=37355781563637411813&cm_mc_sid_52640000=70284231563637411831)
+[See here...](https://www.ibmbigdatahub.com/blog/simplifying-db2-downloads-help-clients-and-developers-get-started?cm_mc_uid=81099688463915636374118&cm_mc_sid_50200000=37355781563637411813&cm_mc_sid_52640000=70284231563637411831)
 
 IBM Db2 Community Edition 11.5, RAM: 16GB, CPU: 4 sockets or 4 cores, Database size: 100GB! No further restrictions or disabled features!
+[siehe auch](https://www.kbce.com/db2-community-edition/)
 
+also starten wir, zuerst:
+
+### Download IBM DB2 Server 11.5 Community Edition
+
+dann:
 
 ### Unzip and Start Setup
 
+ich nütze mit Windows User Verwaltung,
+
 ![](bilder/inst1.png)
 
+...
+
 ![](bilder/inst2.png)  
+
+...
+
+nun ist der Server installiert
  
- ### Create Database with DB2 cmdline tool
+### Create Database with DB2 cmdline tool
 
 ![](bilder/inst3.png)  
 
