@@ -32,7 +32,7 @@ nun ist der Server installiert
 
 ![](bilder/inst3.png)  
 
-Start DB.exe
+Start DB2.exe
 
       CREATE DATABASE FLEX01 AUTOMATIC STORAGE YES ON 'C:\' DBPATH ON 'C:\' USING CODESET 1252 TERRITORY AT
       
@@ -47,5 +47,5 @@ Start DB.exe
  
 nun ist unsere DB2 Windows Server lauffähig,
 wollen wir zugreifen muss die TCP-IP Port 50000 erreichbar sein,
-bitte Firewall Regeln anpassen (Ein/Aus TCP Port freigeben)
+bitte Firewall Regeln anpassen (TCP Port für eingehende verbindungen freigeben)
 
