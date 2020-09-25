@@ -10,13 +10,13 @@ IBM Db2 Community Edition 11.5, RAM: 16GB, CPU: 4 sockets or 4 cores, Database s
 
 also starten wir, zuerst:
 
-### Download IBM DB2 Server 11.5 Community Edition
+### Download IBM DB2 Server 11.5.4 Community Edition
 
 dann:
 
-### Unzip and Start Setup
+### Unzip and Start Setup (als Admin)
 
-ich nütze mit Windows User Verwaltung,
+Windows User Verwaltung on,
 
 ![](bilder/inst1.png)
 
@@ -27,8 +27,14 @@ ich nütze mit Windows User Verwaltung,
 ...
 
 nun ist der Server installiert
+
+### ACHTUNG! DB2 Benutzer müssen mit Windows Userverwaltung angelegt sein
+### zB: db2admin o. db2user oder wie in diese Beispiele: FlexDB2 in der Gruppe DB2ADMNS
+ 
+![](bilder/user_db2.jpg)  
  
 ### Create Database with DB2 cmdline tool
+### jetzt können wir die erste Datanbank anlegen
 
 ![](bilder/inst3.png)  
 
